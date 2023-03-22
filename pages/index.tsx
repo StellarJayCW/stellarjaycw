@@ -62,6 +62,8 @@ const Home: NextPage<any> = ({ repos }: ProjectProps) => {
           <Image
             src='/Josh-website-photo.jpg'
             alt='Headshot of Josh Westover'
+            width={300}
+            height={300}
           />
           <Text type='paragraph' css={{ marginTop: '$4' }}>
             Hey! I&apos;m Josh Westover, a graduating Strategy student,
