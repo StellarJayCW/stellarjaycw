@@ -1,1 +1,1 @@
-export const projects = ['stellarjaycw.github.io'];
+export const projects = ['NotchDental', 'stopover.flights', 'stellarjaycw'];

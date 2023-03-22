@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import { GetStaticProps } from 'next';
+import { Image } from 'next/image';
 import Head from 'next/head';
 import styles from 'styles/Home.module.css';
 import { purple } from '@radix-ui/colors';
@@ -58,6 +59,10 @@ const Home: NextPage<any> = ({ repos }: ProjectProps) => {
           <Text as='h1' type='title' css={{ cursor: 'help' }}>
             Josh Westover
           </Text>
+          <Image
+            src='/Josh-website-photo.jpg'
+            alt='Headshot of Josh Westover'
+          />
           <Text type='paragraph' css={{ marginTop: '$4' }}>
             Hey! I&apos;m Josh Westover, an aspiring Project Manager and
             Strategy student. Based in Utah.
@@ -67,33 +72,6 @@ const Home: NextPage<any> = ({ repos }: ProjectProps) => {
           </Text>
         </VerticalBox>
         <VerticalBox as='main'>
-          {/* <Box css={{ display: 'block' }}>
-            <Text
-              type='title'
-              css={{
-                marginBottom: '$10',
-                display: 'flex',
-                alignItems: 'center',
-                svg: {
-                  marginRight: '$2',
-                  size: '$6',
-                  color: '$primary',
-                },
-              }}
-            >
-              <PencilSimple />
-              Writing
-            </Text>
-            {posts.length ? (
-              <>
-                {posts.map((post: any) => (
-                  <WritingCard key={post.uid} post={post} />
-                ))}
-              </>
-            ) : (
-              <Nothing />
-            )}
-          </Box> */}
           <Box css={{ display: 'block', marginTop: '$12' }}>
             <Text
               type='title'
