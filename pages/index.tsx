@@ -64,8 +64,8 @@ const Home: NextPage<any> = ({ repos }: ProjectProps) => {
             alt='Headshot of Josh Westover'
           />
           <Text type='paragraph' css={{ marginTop: '$4' }}>
-            Hey! I&apos;m Josh Westover, an aspiring Project Manager and
-            Strategy student. Based in Utah.
+            Hey! I&apos;m Josh Westover, a graduating Strategy student,
+            entreprenuer, and aspiring Product Manager. Based in Utah.
           </Text>
           <Text type='paragraph' css={{ marginTop: '$4' }}>
             Interested in product, design and Web3.
